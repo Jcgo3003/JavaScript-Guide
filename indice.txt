@@ -1,0 +1,31 @@
+- Matrices -
+Colección de elementos de cualquier tipo, puede "mutar"/Modificar sus elementos.
+
+- Constructor -
+Método para crear e inicializar un objeto creado a partir de una clase.
+
+- Objetos -
+Son piezas de datos (valores) asignados a identificadores únicos llamados propiedades (llaves), estos pueden ser todo tipo de dato incluso funciones(metodos).
+
+- Regex -
+Patrones que ayudan a emparejar, buscar y reemplazar texto - /patron/.
+
+- Destructuring assignment/Spread operator -
+Permite desempacar valores de arreglos o propiedades de objetos en distintas variables.
+
+- Exportación/Impostación de funciones -
+Sintaxis para importar/exportar funciones entre archivos.
+
+- Funciones -
+Conjunto de instrucciones que realiza una tarea.
+
+- Promesas -
+Es un objeto que representa la terminación o el fracaso de una operación asíncrona.
+
+- Strings -
+Es un objeto que se utiliza para representar y manipular una secuencia de caracteres.
+
+- Variables - 
+Nombre con que se utilizan y mencionan las literales(1, 'str').
+
+

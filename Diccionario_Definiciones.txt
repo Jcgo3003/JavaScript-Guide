@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------------------------------
+Diccionario
+
+
+- - - ¿ECMAScript es el primer nombre de JavaScript? - - -
+
+LiveScript, JScript, ECMAScript, ES son solo nombres alternativos para JavaScript. Todo lo que se ve, huele y se siente como JavaScript pero no JavaScript es probablemente un subconjunto
+
+ES6 ECMAScript (ES) es una especificación de lenguaje de secuencias de comandos estandarizada por ECMA International. Fue creado para estandarizar JavaScript. El lenguaje de secuencias de comandos de ES contiene muchas implementaciones y la más popular es JavaScript. Los desarrolladores utilizan ECMAScript principalmente para scripts del lado del cliente de World Wide Web (WWW)
+
+Javascript ES6 o ECMAScript 2015 fue la segunda revisión importante de JavaScript. ECMAScript 2015 también se conoce como ES6 y ECMAScript 6. Este capítulo describe las características más importantes de ES6.
+
+
+- - - Expresiones literales o literales - - -
+
+Los “literales” se utilizan para representar valores en JavaScript. Son valores fijos, no variables, que como su nombre indica son literalmente proporcionados por el programador en el código. El término “literal” uno de sus significados es “Que reproduce exactamente lo que se ha dicho o se ha escrito “, en el código se utiliza para expresar los valores que se desea que tengan las variables, objectos, etc.
+
+Supongamos el siguiente ejemplo de código en el cual se realiza la definición de variables inicializando las mismas con un valor.
+
+var saludo = “Hola Mundo”;
+var edad = 47;
+
+Pues los dos valores expresados “Hola Mundo” y 47, es lo que denominamos literales.
+
+Las variables y las constantes son nombres personalizados que se asignan a posiciones de memoria las cuales guardan los valores. 
+
+LITERALES BOOLEANOS
+Los literales booleanos tienen dos valores posibles true y false, no se han de confundir con los 
+
+
+
+
+
+

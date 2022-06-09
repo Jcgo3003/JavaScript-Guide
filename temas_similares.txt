@@ -1,0 +1,7 @@
+Parametros Rest - Operador Spread
+
+Parametros Rest
+function ejem(...args) {
+
+Operador Spread
+const maximus = Math.max(...matriz);
