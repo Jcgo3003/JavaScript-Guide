@@ -167,12 +167,27 @@ rtn = watchList.map(({Title: titulo, imdbRating: rating }) => ({ titulo, rating 
 
 console.log(rtn); 			           // -> [ { titulo: 'Inception', rating: '8.8' }, { titulo: 'Interstellar', rating: '8.6' }, ...
 
-
-rtn = Array.from({ length: 3 }, () => { // utilizando un map function para crear una Matriz con '🇨🇦'
+// - Miscellanius -
+console.log('- Miscellanius Map -');
+// utilizando un map function para crear una Matriz con '🇨🇦'  
+// 'Array.from' Tiene integrada la funcion map
+// Array.from(arrayLike[, mapFn[, thisArg]])
+rtn = Array.from({ length: 3 }, () => { 
   return '🇨🇦';                          
 });
 console.log(rtn);                 // -> [ '🇨🇦', '🇨🇦', '🇨🇦' ]
+
+// Aplicando un Metodo directamente sobre una matriz
+rtn = [1, 2, 3, 4, 5].map(String);
+console.log(typeof(rtn[1]));     //-> string
+
+rtn = '1990'.split('').map(Number);
+console.log(typeof(rtn[1]));    //-> number
+
+
 // https://www.samanthaming.com/tidbits/22-2-ways-to-repeat-strings/
+
+
 // - Reduce -
 console.log('\n- Reduce -');
 // - Ejecuta una función reductora sobre cada elemento de una matriz, devolviendo como resultado un único valor.

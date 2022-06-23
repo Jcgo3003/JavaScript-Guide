@@ -4,8 +4,8 @@ console.log('- String -');
 
 let str = 'string'; // DECLARANDO string
 let rtn = '';
-
 // Metodos
+
 console.log('- Metodos -'); // Ningun metodo modifica el string original
 str = ' ! string ! ';
 rtn = str.trim();			// RETURN string con spacios ELIMINADOS antes y después del str.
@@ -102,6 +102,17 @@ console.log(rtn);			// -> lo wor
 rtn = 'hello world'.slice(3, 9);// Obtener un substring utilizando slice en matrices
 console.log(rtn);			// -> lo wor
 	// -> lo wor
+
+
+
+// Miscellaneous
+console.log('\n- Miscellaneous - ');
+
+console.log(`Blabla \ `);    //-> Blabla | Solo cuando esta escrito con ` \ va a ser ignorada
+
+rtn = 'abc'.padStart('6', '12345');// Rellena un string de izq a derecha con mas chars, str.padStart(targetLength [, padString])
+console.log(rtn);			//-> 
+
 // -       Escape sequences.      -
 // --------------------------------
 // \0 - NUL character(\u0000)
@@ -119,5 +130,3 @@ console.log(rtn);			// -> lo wor
 // \unnnn - The Unicode character specified by the four hexadecimal digits nnnn
 // \u{n} - The Unicode character specified by the codepoint n, where 
 // 	n is one to six hexadecimal digits between 0 and 10FFFF (ES6)
-
-

@@ -65,6 +65,11 @@ console.log(Number.isInteger(rtn));   // -> true
 rtn = 'bla';
 console.log(Number.isInteger(rtn));   // -> bla 
 
+// Miscellaneous
+console.log('\n-Miscellaneous-');
+console.log('- String operatios to Math -');
+rtn = '10 +  10';
+console.log(eval(rtn));				// >> 20
 
 // # Operaciones entre tipos distitos
 // print('\n- Operaciones entre distintos tipos -') # NO SE PARA QUE SIRVE O SI QUIERA COMO FUNCIONA!!!!!!!!! 
