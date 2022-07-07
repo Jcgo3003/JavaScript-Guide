@@ -5,6 +5,32 @@ console.log('- Currying y aplicacion parcial -');// Introducción al currying y 
 // - Currizar una función significa convertir una función de N aridad en N funciones de aridad
 // - Es útil en su programa si no puede proporcionar todos los argumentos a una función a la vez.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+console.log('\n- Ejemplo Eloquent JavaScript -');
+
+function mul(factor){
+  return number => number * factor;
+}
+
+let twice = mul(2)
+console.log(twice);
+console.log(twice(5));
+
+
+
+function con(b){
+  return a => a + b;
+}
+
+let inst = con('dos');  
+console.log(inst);        // -> [Function (anonymous)]
+console.log(inst('uno ')) // -> uno dos
+// uno -> a
+// dos -> b
+
+
+// FreeCodecamp
+console.log('\n- Freecodecamp')
+
 // Uncurried - funcion sin currizar
 console.log('- Uncurried -');
 
